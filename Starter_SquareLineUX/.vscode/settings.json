@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "D:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/src/ui",
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.md": "markdown",
+        "ui.h": "c",
+        "*.tpp": "cpp"
+    }
+}

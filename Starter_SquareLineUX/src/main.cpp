@@ -3,7 +3,6 @@
 #include <Crowbits_DHT20.h>
 
 #include <SPI.h>
-#include <Adafruit_GFX.h>
 #include "ui/ui.h"
 #include "lgfx/lgfx.h"
 
@@ -29,14 +28,14 @@ void setup()
 
 int clickCount = 0;
 
-// Handle Click event
-void clickedClickMe(lv_event_t *e)
-{
-  clickCount++;
-  char ClickBuffer[20];
-  snprintf(ClickBuffer, sizeof(ClickBuffer), "%d", clickCount);
-  lv_label_set_text(ui_LabelCount, ClickBuffer);
-}
+// // Handle Click event
+// void clickedClickMe(lv_event_t *e)
+// {
+//   clickCount++;
+//   char ClickBuffer[20];
+//   snprintf(ClickBuffer, sizeof(ClickBuffer), "%d", clickCount);
+//   lv_label_set_text(ui_LabelCount, ClickBuffer);
+// }
 
 // Run Ardunio event loop
 void loop()
