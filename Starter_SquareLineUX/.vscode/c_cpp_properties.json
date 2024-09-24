@@ -9,6 +9,7 @@
             "name": "PlatformIO",
             "includePath": [
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/src",
+                "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFi/src",
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/lib/Crowbits_DHT20",
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/DHT sensor library for ESPx",
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/CircularBuffer",
@@ -20,6 +21,7 @@
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl",
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src",
                 "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/include",
+                "d:/PlatformIO/Projects/CrowPanel7inch",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/tools/sdk/esp32s3/include/config",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/tools/sdk/esp32s3/include/newlib/platform_include",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/tools/sdk/esp32s3/include/freertos/include",
@@ -239,7 +241,6 @@
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/USB/src",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/Update/src",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WebServer/src",
-                "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFi/src",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFiClientSecure/src",
                 "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFiProv/src",
                 ""
@@ -248,6 +249,7 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/src",
+                    "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFi/src",
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/lib/Crowbits_DHT20",
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/DHT sensor library for ESPx",
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/CircularBuffer",
@@ -259,6 +261,7 @@
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl",
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/.pio/libdeps/esp32-s3-devkitc-1-myboard/lvgl/src",
                     "d:/PlatformIO/Projects/CrowPanel7inch/Starter_SquareLineUX/include",
+                    "d:/PlatformIO/Projects/CrowPanel7inch",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/tools/sdk/esp32s3/include/config",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/tools/sdk/esp32s3/include/newlib/platform_include",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/tools/sdk/esp32s3/include/freertos/include",
@@ -478,7 +481,6 @@
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/USB/src",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/Update/src",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WebServer/src",
-                    "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFi/src",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFiClientSecure/src",
                     "C:/Users/LEY/.platformio/packages/framework-arduinoespressif32@src-87ac2a9d947aea8f7d6ce292db8f4c47/libraries/WiFiProv/src",
                     ""

@@ -4,6 +4,7 @@
         "*.embeddedhtml": "html",
         "*.md": "markdown",
         "ui.h": "c",
-        "*.tpp": "cpp"
+        "*.tpp": "cpp",
+        "message.h": "c"
     }
 }

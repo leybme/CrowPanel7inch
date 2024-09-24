@@ -25,6 +25,8 @@ extern "C" {
 #include "ui_helpers.h"
 #include "ui_events.h"
 
+
+
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 extern lv_obj_t * ui_Screen1;
@@ -35,11 +37,13 @@ extern lv_obj_t * ui_Container6;
 extern lv_obj_t * ui_Label2;
 extern lv_obj_t * ui_Container2;
 extern lv_obj_t * ui_Chart2;
+extern lv_chart_series_t * ui_Chart2_series_1;
 extern lv_obj_t * ui_Label1;
 extern lv_obj_t * ui_Container3;
 void ui_event_Button1(lv_event_t * e);
 extern lv_obj_t * ui_Button1;
 extern lv_obj_t * ui_LabelBtn1;
+void ui_event_Button2(lv_event_t * e);
 extern lv_obj_t * ui_Button2;
 extern lv_obj_t * ui_LabelBtn2;
 void ui_event_Button3(lv_event_t * e);
